@@ -1,0 +1,61 @@
+Project Proposal
+Email:
+- Ray Krause: razorusa@gmail.com
+- Thomas Palmisano: tpalmusmc@yahoo.com
+- Jeff O'Neal: jeffoneal10@gmail.com
+- Hunter Spence: Hspence00@gmail.com
+
+Enter Group Number or Name:
+- Group 1
+
+Enter Project Title:
+- Retirement Simulator
+
+Enter team members first and last name:
+- Ray Krause
+- Thomas Palmisano
+- Jeff O'Neal
+- Hunter Spence
+
+Enter project description:
+- Retirement Simulator, with Monte Carlo simulation (MCS)
+
+What will be the project about? Enter project objective:
+- Build a Retirement calculator/simulator. By using Monte Carlo simulation (MCS), we can test and compare retirement strategies over thousands of lifetimes. The goal is to identify how much money you can spend each year in retirement, given your life expectancy, without exhausting your savings.
+
+Based on the previous question, Why do you choose this type of project?
+Enter research questions to answer:
+- The team was interested in working with Monte Carlo simulations that had a FinTech element. By keeping track of the number of simulations in which your savings last for the duration of your retirement, we will be able to estimate the probability that our plan will be successful or not. For example, if your savings survive in 80,000 of 100,000 simulations, we can estimate that the probability of success is 80%. (80,000 / 100,000 = 80%). Of course, it's important to remember that Monte Carlo simulation assumes the future will be at least somewhat like the past - after all, we're using historical data in each simulation.
+
+How would you structure your initial questions to start finding answers to your project objective?
+- For each year of each simulation, we randomly select one year of stock, bond, and cash returns from our database. Using those values, we calculate what would happen to your savings - subtracting your spending, adjusting for inflation, and adding your investment return. We repeat this process, one year at a time, until the end of your retirement or until your savings are exhausted. The next simulation starts the whole process from the beginning.
+
+Enter links or describe datasets to be used:
+- 
+- https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bond-current-10-year-index/
+- https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bill-0-3-month-index/
+- https://finance.yahoo.com/quote/%5EGSPC/history/
+- https://www.nasdaq.com/market-activity/index/spx/historical
+- https://home.treasury.gov/interest-rates-data-csv-archive
+- https://www.investing.com/indices/us-spx-500-historical-data
+- https://data.gov/
+- www.macrotrends.net
+- https://indexes.morningstar.com/page/resources
+- https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
+
+
+Enter rough breakdown of tasks assignments for each team member:
+All team members will participate in the follow task assignments;
+- Participate in various meetings
+- Analysis
+- Solution Design
+- Writing new functionality (i.e. start coding)
+- Develop testing steps and criteria
+- Finding and Fixing bugs
+- Quality assurance and testing
+- Code review
+- Code Analysis
+- Refactoring code (i.e. code clean-up)
+- Write documentation
+- Develop presentation
+- Presentation
