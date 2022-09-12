@@ -21,10 +21,16 @@ The data we used was pulled from the following sources listed below and input in
 
 We have broken down this information into the following catagories: Stocks, Bonds (10 Year T Bill rate), a 60/40 stock/bond ratio, a 50/50 stock bond ratio and a 40/50/10 stock bond cash ratio.  The user is prompted to select one of those options initially within our code. 
 
-- https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bond-current-10-year-index/
-- https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
+ - https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bond-current-10-year-index/
+- https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bill-0-3-month-index/
 - https://finance.yahoo.com/quote/%5EGSPC/history/
 - https://www.nasdaq.com/market-activity/index/spx/historical
+- https://home.treasury.gov/interest-rates-data-csv-archive
+- https://www.investing.com/indices/us-spx-500-historical-data
+- https://data.gov/
+- www.macrotrends.net
+- https://indexes.morningstar.com/page/resources
+- https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
 
 # Monte Carlo Simulation
 
