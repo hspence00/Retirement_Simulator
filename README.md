@@ -43,7 +43,7 @@ Our retirement calculator is very user friendly, by runing the code the user wil
 
 # User Interface
 
-
+Our teams graphical user interface acts as a widget to quickly and easily test out a plethora of combinations for your starting investment, your yearly spending, and the amount of years you plan to be retired for. It also allows you to select your investment type via a button click. This widget will allow the user to test out many different financial situations that they may be in and run a monte carlo simulation that goes through 5000 different lifetimes.  
 
 # Room for Improvement
 
