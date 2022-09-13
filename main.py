@@ -35,9 +35,6 @@ def def_input(prompt, default=None):
     else:
         return response
 
-# These txt files are solely for testing purposes we will need to read
-# from a CSV file using pd for the final product
-
 ''' load data files with original data in percent form. '''
 # use the read_list() function to load the six data files
 try:
@@ -57,13 +54,15 @@ investment_type = {'bonds': bonds, 'stocks': stocks, '60/40': ratio_60_40,
                         'sb': blend_50_50, 'sbc': blend_40_50_10}
 # print header logo in Red, white and blue color
 print("\n \n")
-print(Fore.RED +"   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print(Fore.WHITE +"  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print(Fore.BLUE +" ~~   $                                                         $   ~~")
-print(Fore.BLUE +"~~   $ $       R E T I R E M E N T     S I M U L A T O R       $ $   ~~")
-print(Fore.BLUE +" ~~   $                                                         $   ~~")
-print(Fore.WHITE +"  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print(Fore.RED +"   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
+print(Fore.RED +"    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print(Fore.WHITE +"   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print(Fore.BLUE +"  ~~                                                            ,;;   ~~")
+print(Fore.BLUE +" ~~   (._.)                                                    (._.)   ~~")
+print(Fore.BLUE +"~~    <) )/      R E T I R E M E N T    $ I M U L A T O R      \( (>    ~~")
+print(Fore.BLUE +" ~~    / \                                                      / \    ~~")
+print(Fore.BLUE +"  ~~  Pablo                                                    Sean   ~~")
+print(Fore.WHITE +"   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print(Fore.RED +"    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
 # print user questions
 print(Fore.WHITE +"   How long will your retirement nest egg last?\n   How much could your investments grow?\n   Answer a few questions to see a long-term projection.\n   Then try making a few changes to view the impact on your results.\n\n")
@@ -74,9 +73,7 @@ print("      Stocks = S&P 500")
 print("      Bonds = 10 year Treasury Bond")
 print("      60/40 = 60% S&P 500 / 40% Treasury Bond")
 print("      SB Blend = 50% S&P 500 / 50% Treasury Bond")
-print("      SBC Blend = 40% S&P 500 / 50% Treasury Bond / 10% Cash")
-print(Fore.GREEN +"      Crypto =  F U T U R E   F U N C T I O N A L I T Y")
-print(Fore.GREEN +"      Custom =  F U T U R E   F U N C T I O N A L I T Y\n")
+print("      SBC Blend = 40% S&P 500 / 50% Treasury Bond / 10% Cash \n")
 print(Fore.WHITE +"      Press ENTER to accept default value shown in [brackets]. \n")
 
 ''' get user input on their investment choice '''
