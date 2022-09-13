@@ -64,7 +64,7 @@ Our teams graphical user interface acts as a widget to quickly and easily test o
 
 # Future Enhancements
 
-Our project could be imporoved by giving uses a greater variety of investment models to choose from such as cryptocurrencies, NFT's or gold or a user selected mixture of all of those options.  With more time the user interface would be updated to allow for additional customization within portfolios so that it would fit a greater number of users. 
+Our project could be improved by giving uses a greater variety of investment models to choose from such as crypto currencies, NFT's, gold or a user selected mixture of all of those options.  With more time the user interface would be updated to allow for additional customization within portfolios so that it would fit a greater number of users. 
 
 
 
