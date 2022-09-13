@@ -49,7 +49,7 @@ try:
     blend_50_50 = read_list('./Resources/SB_blend_1928-2021_pct.txt')
     ratio_60_40 = read_list('./Resources/60_40_ratio_1928-2021.txt')
     infl_rate = read_list('./Resources/annual_infl_rate_1928-2021_pct.txt')
-    print("Hello World!")
+    
 # error handling exception
 except IOError as e:
     print("{}. \nTerminating program.".format(e), file=sys.stderr)
@@ -177,9 +177,6 @@ def main():
     global invest_type, investment_type
 
     outcome, bankrupt_count = montecarlo(investment_type[invest_type])
-    print(outcome[:20], "\n", bankrupt_count)
-    
-    #bankrupt_count, outcome = montecarlo(investment_type)
     
     # get the odds of running out of money
     odds = bankrupt_prob(outcome, bankrupt_count)
@@ -208,14 +205,6 @@ def main():
     # draw the plot to the screen
     plt.show()
     
-    #print(start_value)
-    #print(withdrawal)
-    #print(duration)
-
-# run the simulation program
-#if __name__ == '__main__':
- #   main()
-
 #setting size and measuring size of screen
 window_width = 800
 window_height = 600
@@ -237,7 +226,7 @@ root.columnconfigure(1, weight=1)
 root.columnconfigure(1, weight=8)
 
 
-
+#maintain all values for sliders to retrieve values call slider.get()
 
 def slider_changed(event):
     value_label.configure(text='{: .2f}'.format(slider.get()))
@@ -318,7 +307,7 @@ sb.grid(column=3, row=1)
 
 sbc = tk.Button(frame, text='STOCKS, BONDS, & CRYPTO (50/40/10)', command = lambda: triblend())
 sbc.grid(column=4 , row=1)
-
+#creating another frame so it can be semi seperated from the sliders and buttons to create even space
 frame2 = tk.Frame(frame)
 frame2.place(relx=.25, rely=.2, relwidth = .3, relheight = .8)
 
@@ -327,7 +316,7 @@ monteC.grid_configure(column=0, row=0)
 
 num_cases = 50000
 
-
+#run simulation button which calls the main function to excute the functionality of the GUI
 MC = tk.Button(frame2, text="Run Simulation!", command= lambda: main())
 MC.grid_configure(column=0, row=1)
 
