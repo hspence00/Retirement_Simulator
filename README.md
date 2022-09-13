@@ -34,6 +34,9 @@ Monte Carlo Simulation gives you a more realistic assessment of how the future m
 
 When predicting outcomes 30 to 40 years into the future can be a challenge.  We are better off trying to keep things simple and focus on the most important and controllable issues. You can control when you retire, your investment asset allocation, how much you save, and how much you spend, but you can’t control the stock market, interest rates, and inflation.
 
+# The pseudocode
+
+![pseudocode](https://user-images.githubusercontent.com/109116465/189839414-90656585-0a51-4345-a840-db1b35eff207.png)
 
 # How To Use CLI simulator
 
