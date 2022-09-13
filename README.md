@@ -9,7 +9,7 @@ Within the project the user will be prompted to provide information about the am
 
 The following technologies are what is required to run our program:
 
-- Python 2.7
+- Python 3
 
 # Historical Data
 
@@ -30,21 +30,34 @@ We have broken down this information into the following catagories: Stocks, Bond
 
 # Monte Carlo Simulation
 
-Monte Carlo simulation gives users an opportunity to view future possibilities based on histroic data.  Instead of just using one simulation it allows users to run thousands of simulations creating a greater overall picture of what could come. By tracking the amount of times the simulation predicts the input data is returned with a bankrupt reading out of 50,000 we can determine the probablity that the user will have sufficent savings to surving their expected retirement.  
+Monte Carlo Simulation gives you a more realistic assessment of how the future may unfold by looking at a wide variety of potential market scenarios that take fluctuating market returns into account. Instead of basing calculations on just one average rate of return, we generate thousands and thousands of simulations of hypothetical market scenarios, and calculate the impact on your savings during your retirement. Each simulation includes up and down markets of various lengths, intensities, and combinations 
+
+When predicting outcomes 30 to 40 years into the future can be a challenge.  We are better off trying to keep things simple and focus on the most important and controllable issues. You can control when you retire, your investment asset allocation, how much you save, and how much you spend, but you can’t control the stock market, interest rates, and inflation.
 
 
-# How To Use
+# How To Use CLI simulator
 
-Users  input will be python main.py to run our retirement calculator that is very user friendly. Runing the code the user will be prompted to input the initial value of their portfolio at the time of retirment, the amount of money they plan on withdrwaling annually and their minimum, expected and longest retirement periods (in years).  Our simulation will take that user inputted data, run it through the Monte Carlo simulation determine the likelihood of running out of money and print a chart for that individual scenarios calculation. 
+Users input will be python main.py to run our retirement calculator that is very user friendly. Running the code the user will be prompted to input the initial value of their portfolio at the time of retirment, the amount of money they plan on withdrwaling annually and their minimum, expected and longest retirement periods (in years).  Our simulation will take that user inputed data, run it through the Monte Carlo simulation determine the likelihood of running out of money and print a chart for that individual scenarios calculation. 
+
+Investment Type = Which portfolio the user would like to run simulations on.
 
 Initial Investment = Starting amount of user funds.
-Annual Withdrawal = Yearly spending of user.
-Years in Retirement = Miniumum - Average - Max years in retirement for user.  In the user interface this item is simplified to a single average number. 
-Investment Type = Which portfolio the user would like to run simulations on. 
 
-# User Interface
+Annual Withdrawal = Yearly spending of user.
+
+Years in Retirement = Min - Ave - Max years in retirement for user.
+
+Input number of Monte Carlo Simulations (MCS) to run.
+
+![Sim_image_2](https://user-images.githubusercontent.com/109116465/189823952-0ffef930-1257-4172-927c-ecdbcd258342.png)
+
+![Sim_image_3](https://user-images.githubusercontent.com/109116465/189824549-375c69bf-6c61-49fe-8422-112ba643f7a7.png)
+
+# GUI User Interface
 
 Our teams graphical user interface acts as a widget to quickly and easily test out a plethora of combinations for your starting investment, your yearly spending, and the amount of years you plan to be retired for. It also allows you to select your investment type via a button click. This widget will allow the user to test out many different financial situations that they may be in and run a monte carlo simulation that goes through 5000 different lifetimes.  
+
+![GUI](https://user-images.githubusercontent.com/109116465/189824865-222a759b-5d3d-4f09-8e68-67ea8179da80.png)
 
 # Future Enhancements
 
