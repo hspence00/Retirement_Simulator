@@ -59,7 +59,7 @@ Input number of Monte Carlo Simulations (MCS) to run.
 ![Sim_image_4](https://user-images.githubusercontent.com/109116465/189825837-929ac781-6195-4b68-a4cc-4346092be534.png)
 
 
-# GUI User Interface
+# GUI User Interface (BETA)
 
 Our teams graphical user interface acts as a widget to quickly and easily test out a plethora of combinations for your starting investment, your yearly spending, and the amount of years you plan to be retired for. It also allows you to select your investment type via a button click. This widget will allow the user to test out many different financial situations that they may be in and run a monte carlo simulation that goes through 5000 different lifetimes.  
 
