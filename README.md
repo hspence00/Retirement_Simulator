@@ -33,18 +33,23 @@ We have broken down this information into the following catagories: Stocks, Bond
 Below you will see a financial analysis of the 5 portfolio types. The different visualizations used helped the user understand how the portfolios compare to eachother. In order to make a better judgment in which portfolio type the user wants to use. The 5 visualizations include Exponential Weighted Average (EWM), Cummulative Returns, Box and Bar graph to display Standard Deviation characteristics, and a Correlation graph. Viewing these graphs identify key charactersitics about how these portfolios perfrom, and how they are different. 
 
 Cummulative Returns
+
 ![Screen Shot 2022-09-11 at 5.05.17 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-11%20at%205.05.17%20PM.png)
 
 Bar Graph (Standard Deviation)
+
 ![Screen Shot 2022-09-11 at 5.05.36 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-11%20at%205.05.36%20PM.png)
 
 Box Plot (Standard Deviation)
+
 ![Screen Shot 2022-09-12 at 5.20.54 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-12%20at%205.20.54%20PM.png)
 
 Exponentially Weighted Average
+
 ![Screen Shot 2022-09-12 at 5.21.23 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-12%20at%205.21.23%20PM.png)
 
 Correlation Map
+
 ![Screen Shot 2022-09-12 at 5.20.37 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-12%20at%205.20.37%20PM.png)
 
 
