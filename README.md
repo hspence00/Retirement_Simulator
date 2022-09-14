@@ -28,6 +28,13 @@ We have broken down this information into the following catagories: Stocks, Bond
 - https://indexes.morningstar.com/page/resources
 - https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
 
+# Portfolio Analysis
+
+Below you will see a financial analysis of the 5 portfolio types. The different visualizations used helped the user understand how the portfolios compare to eachother. In order to make a better judgment in which portfolio type the user wants to use. The 5 visualizations include Exponential Weighted Average (EWM), Cummulative Returns, Box and Bar graph to display Standard Deviation characteristics, and a Correlation graph. Viewing these graphs identify key charactersitics about how these portfolios perfrom, and how they are different. 
+
+![Screen Shot 2022-09-11 at 5.05.17 PM.png](https://github.com/hspence00/FinTech_Project_1/blob/main/Images/Screen%20Shot%202022-09-11%20at%205.05.17%20PM.png)
+
+
 # Monte Carlo Simulation
 
 Monte Carlo Simulation gives you a more realistic assessment of how the future may unfold by looking at a wide variety of potential market scenarios that take fluctuating market returns into account. Instead of basing calculations on just one average rate of return, we generate thousands and thousands of simulations of hypothetical market scenarios, and calculate the impact on your savings during your retirement. Each simulation includes up and down markets of various lengths, intensities, and combinations 
