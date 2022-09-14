@@ -30,7 +30,7 @@ We have broken down this information into the following catagories: Stocks, Bond
 
 # Portfolio Analysis
 
-Below you will see a financial analysis of the 5 portfolio types. The different visualizations used helped the user understand how the portfolios compare to eachother. In order to make a better judgment in which portfolio type the user wants to use. The 5 visualizations include Exponential Weighted Average (EWM), Cummulative Returns, Box and Bar graph to display Standard Deviation characteristics, and a Correlation graph. Viewing these graphs identify key charactersitics about how these portfolios perfrom, and how they are different. 
+Below you will see a financial analysis of the 5 portfolio types. The different visualizations used will help the user understand how the portfolios compare to eachother. In order to make a better judgment in which portfolio type the user wants to use. The 5 visualizations include Exponential Weighted Average (EWM), Cummulative Returns, Box and Bar graph to display Standard Deviation characteristics, and a Correlation graph. Viewing these graphs identify key charactersitics about how these portfolios perfrom, and how they are different. 
 
 Cummulative Returns
 
